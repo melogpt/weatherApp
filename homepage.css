@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  .container {
+    background-image: url(./images/sunny-weather-sign-icon-on-blue-background-vector.jpg);
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  .container .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(60, 60, 252);
+    height: 120px;
+  }
+  
+  .container .navbar ul li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 15px;
+    list-style: none;
+    transition: 0.35s;
+  }
+  
+  
+  .container .navbar ul li a {
+    text-decoration: none;
+    color: #F1D3B2;
+    border: 2px;
+    border-radius: 15px;
+    padding: 4px;
+  }
+  
+  .container .navbar ul li a:hover {
+    background-color: gray;
+  }
+  
+  .container .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 750px;
+    line-height: 40px;
+  }
+  
+  .container .content .h1 {
+    font-size: 70px;
+    line-height: 70px;
+    color: #F1D3B2;
+    margin-bottom: 30px;
+  }
+  
+  .container .content .order-button {
+    background: linear-gradient(45deg, #3a3c93, #23bbe9);
+    border-style: none;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    box-shadow: 6px 6px 5px black;
+  }
+  
+  .container .content .order-button:active {
+    opacity: 0.8;
+  }
+  
+  .container .content .order-button:hover {
+    background-color: linear-gradient(45deg, #3a3c93, #23bbe9);;
+    transition: 0.4s;
+  }
+  
+  
+  .container .content .form {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: orange;
+    padding: 100px;
+    border-radius: 20px;
+    border-style: solid;
+    box-shadow: 4px 4px 1px rgb(36, 35, 35);
+  }
+  
+  .input-signup {
+    margin-bottom: 20px;
+    padding: 15px 30px 15px 30px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 15px;
+  }
+  
+  .container .content .form button {
+    padding: 15px 30px 15px 30px    ;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(60, 60, 252);
+    color: #F1D3B2;
+  }
+  
+  .container .content .form h1 {
+    font-size: 20px;
+    
+  }
+  
